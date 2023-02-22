@@ -1,0 +1,12 @@
+{
+  "urls": [
+    ["src/__init__.py", "github:Pycubed-Mini/MODL/src/__init__.py"],
+    ["src/frames.py", "github:Pycubed-Mini/MODL/src/frames.py"],
+    ["src/IGRF.py", "github:Pycubed-Mini/MODL/src/IGRF.py"],
+    ["src/mathutils.py", "github:Pycubed-Mini/MODL/src/mathutils.py"],
+    ["src/orbital_mechanics.py", "github:Pycubed-Mini/MODL/src/orbital_mechanics.py"],
+    ["src/sun_position.py", "github:Pycubed-Mini/MODL/src/sun_position.py"]
+  ],
+  "deps": [],
+  "version": "0.0.1"
+}
