@@ -1,6 +1,6 @@
 try:
     from ulab import numpy as np
-    from ulab.numpy import cos, sin, pi, sqrt, array
+    cos, sin, pi, sqrt, array = np.cos, np.sin, np.pi, np.sqrt, np.array
 except ImportError:
     import numpy as np
     from numpy import cos, sin, pi, sqrt, array
