@@ -1,7 +1,8 @@
 # Based on: https://github.com/RoboticExplorationLab/pycubed_circuitpython/blob/master/Scheduler/sched2.py
 try:
-    from ulab.numpy import zeros, array
-    from ulab.numpy.linalg import norm
+    from ulab import numpy as np
+    zeros, array = np.zeros, np.array
+    norm = np.linalg.norm
 except ImportError:
     from numpy import zeros, array
     from numpy.linalg import norm

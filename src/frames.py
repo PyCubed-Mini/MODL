@@ -1,5 +1,5 @@
 try:
-    import ulab.numpy as np
+    from ulab import numpy as np
     from ulab.numpy import cos, sin, pi, sqrt, array
 except ImportError:
     import numpy as np

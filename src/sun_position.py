@@ -1,6 +1,7 @@
 # Based on: https://github.com/spacecraft-design-lab-2019/flight-software/blob/master/sun-position/sun_position.py
 try:
-    from ulab.numpy import array, degrees, radians, cos, sin
+    from ulab import numpy as np
+    array, degrees, radians, cos, sin = np.array, np.degrees, np.radians, np.cos, np.sin
 except ImportError:
     from numpy import array, degrees, radians, cos, sin
 

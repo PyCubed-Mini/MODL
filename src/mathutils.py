@@ -1,5 +1,11 @@
 try:
-    from ulab.numpy import array, ndarray, zeros, eye as I, dot as matmul  # noqa: E741 (I is not ambiguous)
+    import ulab
+    np = ulab.numpy
+    array = np.array
+    ndarray = np.ndarray
+    zeros = np.zeros
+    I = np.eye  # noqa: E741 (I is not ambiguous)
+    matmul = np.matmul
 except ImportError:
     from numpy import array, ndarray, zeros, eye as I, matmul  # noqa: E741 (I is not ambiguous)
 
