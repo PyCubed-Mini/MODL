@@ -11,9 +11,11 @@ def unix_time_to_julian_day(unix_time):
 
 def approx_sun_position_ECI(utime):
     """
+    Returns the approximate sun position in Earth Centered Intertial (ECI) frame given a unix timestamp.
+
     Formula taken from "Satellite Orbits: Models, Methods and Applications" by Motenbruck and Gill
     See section 3.3.2 on page 70 for the formula
-    Modified to take unix time as input.
+    Modified to take unix time as input. Assumes the satellite is at the center of the Earth.
 
     Args:
         - utime: unix timestamp
